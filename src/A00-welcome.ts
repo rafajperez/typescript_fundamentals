@@ -22,3 +22,15 @@ And to test we give the command npx tsc, then we will have everything that is in
 in our dist folder which will be the production folder
 Attention: we will not touch the dist folder, we will just compile and recompile normally.
 */
+
+/* install eslint: npm install --save-dev eslint @eslint/js typescript typescript-eslint and create eslint.config.mjs and add: 
+// @ts-check
+
+import eslint from '@eslint/js';
+import tseslint from 'typescript-eslint';
+
+export default tseslint.config(
+  eslint.configs.recommended,
+  tseslint.configs.recommended,
+);
+*/
