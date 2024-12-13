@@ -18,7 +18,7 @@ export function toUpperCase(...args: string[]): string[] {
 
 const result = multiplicaArgs(1, 2, 3);
 const concatenacao = concatenaString('a', 'b', 'c');
-const upper = toUpperCase('a', 'b', 'c');
+const upper = toUpperCase('a', 'b', 'c', 'd');
 
 console.log(result);
 console.log(concatenacao);
