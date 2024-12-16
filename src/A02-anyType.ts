@@ -7,8 +7,8 @@ function showMessage(msg: string) {
 /* above we have an exemple of an untype function, 
 unless we want to pass something without a type, for exemple: */
 
-function showMessage2(msg: any) {
-  return msg;
+function showMessage2(msg2: any) {
+  return msg2;
 }
 
 console.log(showMessage2([1, 2, 3]));
