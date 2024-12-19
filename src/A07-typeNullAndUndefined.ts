@@ -1,4 +1,5 @@
 export function squareOf(x: any) {
+  //eslint-disable-line
   if (typeof x === 'number') return x * x;
   return null;
 }

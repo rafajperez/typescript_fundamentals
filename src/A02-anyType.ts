@@ -8,6 +8,7 @@ function showMessage(msg: string) {
 unless we want to pass something without a type, for exemple: */
 
 function showMessage2(msg2: any) {
+  //eslint-disable-line
   return msg2;
 }
 
